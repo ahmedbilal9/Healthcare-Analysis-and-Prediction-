@@ -1,0 +1,18 @@
+# Python and Jupyter project .gitignore
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Virtual environment directories
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.pkl
+
+# macOS system files
+.DS_Store

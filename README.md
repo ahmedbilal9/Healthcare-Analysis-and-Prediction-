@@ -23,13 +23,13 @@ This project leverages **machine learning and data science** to analyze healthca
 
 The dataset includes healthcare-related features such as:
 
-| Feature Category | Examples |
-|-----------------|----------|
-| **Demographics** | Age, Gender, Location |
-| **Medical History** | Chronic conditions, Previous diagnoses |
+| Feature Category  | Examples                                   |
+|------------------|--------------------------------------------|
+| **Demographics**  | Age, Gender, Location                      |
+| **Medical History** | Chronic conditions, Previous diagnoses  |
 | **Clinical Measurements** | Blood pressure, Glucose levels, BMI |
-| **Treatment Data** | Medications, Procedures |
-| **Outcomes** | Disease diagnosis, Treatment success |
+| **Treatment Data** | Medications, Procedures                  |
+| **Outcomes**     | Disease diagnosis, Treatment success       |
 
 ### Data Preprocessing Steps:
 1. **Handling Missing Values** - Imputation strategies (mean, median, mode)
@@ -52,12 +52,12 @@ The dataset includes healthcare-related features such as:
 
 Four classification models were implemented and compared:
 
-| Model | Type | Use Case |
-|-------|------|----------|
-| **Logistic Regression** | Linear Classifier | Baseline model, interpretability |
-| **Decision Tree** | Tree-based | Non-linear relationships, feature importance |
-| **Random Forest** | Ensemble (Bagging) | Robust predictions, reduced overfitting |
-| **XGBoost** | Ensemble (Boosting) | High performance, handles imbalanced data |
+| Model              | Type                | Use Case                                  |
+|--------------------|---------------------|------------------------------------------|
+| **Logistic Regression** | Linear Classifier   | Baseline model, interpretability        |
+| **Decision Tree**  | Tree-based         | Non-linear relationships, feature importance |
+| **Random Forest**  | Ensemble (Bagging) | Robust predictions, reduced overfitting  |
+| **XGBoost**       | Ensemble (Boosting) | High performance, handles imbalanced data |
 
 ### 3. Model Evaluation Metrics
 - **Accuracy** - Overall correctness
@@ -70,12 +70,12 @@ Four classification models were implemented and compared:
 
 ## 📊 Results & Comparison
 
-| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-|-------|----------|-----------|--------|----------|---------|
-| **Random Forest** | **High** | **High** | **High** | **High** | **~0.90+** |
-| **XGBoost** | **High** | **High** | **High** | **High** | **~0.88+** |
-| Decision Tree | Moderate | Moderate | Moderate | Moderate | ~0.80 |
-| Logistic Regression | Baseline | Baseline | Baseline | Baseline | ~0.75 |
+| Model              | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+|--------------------|----------|-----------|--------|----------|---------|
+| **Random Forest**   | **High** | **High**  | **High** | **High** | **~0.90+** |
+| **XGBoost**        | **High** | **High**  | **High** | **High** | **~0.88+** |
+| Decision Tree      | Moderate | Moderate  | Moderate | Moderate | ~0.80   |
+| Logistic Regression | Baseline | Baseline  | Baseline | Baseline | ~0.75   |
 
 ### Key Findings:
 ✅ **Random Forest and XGBoost** demonstrated superior performance  
